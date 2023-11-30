@@ -11,3 +11,5 @@ root.resizable(0, 0)     # запрет редоктирования разме�
 note_label = customtkinter.CTkLabel(root, text= "Заметки", fg_color="green50")  # поле с заметками
 note_label.pack(pady = 4)
 
+note_entry = customtkinter.CTkEntry(root) # окно для ввода заметок
+note_entry.pack(pady=3)
